@@ -36,22 +36,28 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #F1F1F1;
 }
 nav h1 {
+  margin: 1%;
   font-size: 3rem;
 }
 nav a {
   text-decoration: none;
   color: #454A59;
   padding: 0% 2rem;
+  font-family: #454A59;
 }
 @media (max-width: 500px) {
   nav a {
-    padding: 0% 1rem;
+    padding: 0% 0.5rem;
   }
 }
 nav p {
+  font-family: #454A59;
   margin-top: 0%;
+  font-size: 1.5rem;
 }
 footer {
   color: #22283B;
@@ -67,6 +73,7 @@ footer {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  border-radius: 10px;
 }
 .home .intro h2 {
   padding: 0px 15px;
