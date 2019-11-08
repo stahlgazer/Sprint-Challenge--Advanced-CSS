@@ -11,7 +11,7 @@
     }
 
     h2 {
-      padding:0px 15px;
+      padding: 0px 15px;
     }
 
     p {
@@ -34,9 +34,10 @@
       margin       : 20px 2.5%;
       border-radius: 20px;
       height       : 100%;
-      @media @phone{
-        width:90%;
-        margin:5% auto;
+
+      @media @phone {
+        width : 90%;
+        margin: 5% auto;
       }
     }
 
@@ -45,7 +46,7 @@
         display: none;
       }
     }
-    
+
     .launch {
       @media @phone {
         display: none;
@@ -72,18 +73,20 @@
   padding        : 50px 60px;
   display        : flex;
   justify-content: center;
+
   @media @phone {
-    flex-direction:column-reverse;
-    margin:0;
-    padding:0;
-    width:100%;
+    flex-direction: column-reverse;
+    margin        : 0;
+    padding       : 0;
+    width         : 100%;
   }
 
   .walk-text {
     width: 50%;
-    @media @phone{
-      padding:2%;
-      width:100%;
+
+    @media @phone {
+      padding: 2%;
+      width  : 100%;
     }
 
     h3 {
@@ -96,8 +99,14 @@
 
     .btn {
       .button(white, @btn-bg-color);
-      @media @phone{
+
+      @media @phone {
         .mobilebtn();
+      }
+
+      &:hover {
+        color           : @btn-bg-color;
+        background-color: white;
       }
     }
   }
@@ -105,11 +114,12 @@
   .walk-img {
     width      : 46%;
     margin-left: 4%;
-    @media @phone{
-      margin:0 auto;
-      margin-top:2%;
-      padding:0;
-      width:95%;
+
+    @media @phone {
+      margin    : 0 auto;
+      margin-top: 2%;
+      padding   : 0;
+      width     : 95%;
     }
 
     img {
